@@ -78,7 +78,7 @@ function Profile (){
                     <div className="flex-grow-1 ms-5 mt-5">
                     <MDBCardTitle>{user.username}</MDBCardTitle>
                     <MDBCardText>{user.email}</MDBCardText>
-                    <MDBCardText>Senior Journalist</MDBCardText>
+                    <MDBCardText>Developer</MDBCardText>
                     </div>
                   </div>
                   <button type="button" className="btn btn-warning m-2 ms-5" data-toggle="modal" data-target='#exampleModal'><i class="fas fa-edit"></i></button>

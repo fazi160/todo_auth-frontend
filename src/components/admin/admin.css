@@ -1,0 +1,55 @@
+/* Admin.css */
+
+/* Style for the heading */
+.card-header {
+    background-color: #007bff; /* Change to your desired header background color */
+    color: #fff; /* Change to your desired text color */
+  }
+  
+  /* Style for the "Add User" button */
+  .btn-add-user {
+    background-color: #ffc107; /* Change to your desired button background color */
+    color: #000; /* Change to your desired button text color */
+  }
+  
+  /* Style for the search input */
+  .form-control-search {
+    border: 2px solid #ccc; /* Change to your desired border color */
+  }
+  
+  /* Style for the table header */
+  th {
+    background-color: #f8f9fa; /* Change to your desired table header background color */
+  }
+  
+  /* Style for the table rows */
+  tr {
+    border-bottom: 1px solid #ccc; /* Change to your desired row border color */
+  }
+  
+  /* Style for the "Edit" and "Delete" buttons */
+  .btn-edit, .btn-delete {
+    background-color: #28a745; /* Change to your desired button background color */
+    color: #fff; /* Change to your desired button text color */
+  }
+  
+  /* Style for the modal header */
+  .modal-header {
+    background-color: #007bff; /* Change to your desired modal header background color */
+    color: #fff; /* Change to your desired modal header text color */
+  }
+  
+  /* Style for the modal input fields */
+  .form-control-modal {
+    border: 2px solid #ccc; /* Change to your desired border color */
+  }
+  
+  /* Style for the "Update" button in the modal */
+  .btn-update {
+    background-color: #007bff; /* Change to your desired button background color */
+    color: #fff; /* Change to your desired button text color */
+  }
+  
+  /* Customize other elements as needed */
+  
+  

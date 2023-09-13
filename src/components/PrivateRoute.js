@@ -5,18 +5,24 @@ import Admin from './admin/admin'
 import Login from "./login/login";
 import jwt_decode from 'jwt-decode'
 
-export function PrivateRoute(){
-    let response = getLocal()
-    
-    if (response){
-        const decoded = jwt_decode(response)
-
-        if (decoded.is_admin){
-            return <Admin/>
-        }else{
-            return <Home/>
-        }
-    }else{
-        return <Login/>
+export function PrivateRoute() {
+    let response = getLocal();
+    console.log("JWT token:", response);
+  
+    if (response) {
+      const decoded = jwt_decode(response);
+      console.log("Decoded token:", decoded);
+  
+      if (decoded.is_admin) {
+        console.log("User is admin");
+        return <Admin />;
+      } else {
+        console.log("User is not admin");
+        return <Home />;
+      }
+    } else {
+      console.log("User not authenticated");
+      return <Login />;
     }
-}
+  }
+  
