@@ -1,4 +1,91 @@
-*{
+/* Add this CSS code to your stylesheets or CSS file */
+
+/* Style for the main container */
+.maindiv {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    font-size: x-large;
-}
+    height: 100vh;
+  }
+  
+  /* Style for the content container */
+  .content-container {
+    width: 650px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Style for the table */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f0f0f0;
+  }
+  
+  /* Style for the buttons */
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .button-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the modal */
+  .modal-dialog {
+    max-width: 500px;
+  }
+  
+  .modal-body input,
+  .modal-body label {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the logout button */
+  .logout-button {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Additional styles as needed */
+  /* Style for the top bar */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-bar button {
+    margin-right: 20px; /* Adjust the margin to control the spacing between the button and text */
+  }
+  
+  /* Other styles remain the same */
+  

@@ -15,7 +15,7 @@ export function PrivateRoute() {
   
       if (decoded.is_admin) {
         console.log("User is admin");
-        return <Admin />;
+        return <Admin />; //make it into admin
       } else {
         console.log("User is not admin");
         return <Home />;
